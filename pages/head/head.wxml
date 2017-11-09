@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取微信用户信息 </button>
+    <view wx:else>
+      <image bindtap="bindViewTap_stu" class="avatarclass" src="/images/student.png"      background-size="cover"></image>
+      <text class="userinfo-nickname">我是学生党</text>
+       <image bindtap="bindViewTap_tea" class="avatarclass"src="/images/teacher.png"
+background-size="cover"></image>
+      <text class="userinfo-nickname">我是老师！</text>
+    </view>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

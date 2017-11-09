@@ -1,0 +1,30 @@
+<view class = "userclass">比赛/项目
+   <text class = "userinput" >{{identity}}</text>
+</view>
+
+<view class = "userclass">比赛/项目名
+   <text class = "userinput" >{{name}}</text>
+</view>
+
+<view class = "userclass">比赛/项目的详细信息
+   <textarea class = "userinput" >{{introduction}}</textarea>
+</view>
+
+<view class = "userclass">参与人数
+  <text class = "userinput" >{{num}}</text>
+</view>
+
+
+<view class = "userclass">截止日期
+   <text class = "userinput" >{{ddl}}</text>
+</view>
+
+
+<view class = "userclass">标签
+   <text class = "userinput" >{{lab}}</text>
+</view>
+
+<view class="userclass">
+  <button bindtap="bindPickerChange">申请</button>
+
+</view>

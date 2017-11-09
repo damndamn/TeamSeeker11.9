@@ -1,0 +1,33 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+<view class = "userclass">比赛/项目
+  <input class = "userinput" name="identity"  bindblur='inputidentity'/>
+</view>
+<view class = "userclass">比赛/项目名
+  <input class = "userinput" name="name" bindblur='inputname'/>
+</view>
+<view class = "userclass">比赛/项目的详细信息
+  <textarea auto-height='true' class = "userinput" name="introduction" bindblur='inputintroduction'/>
+</view>
+<view class = "userclass">参与人数
+  <input class = "userinput" name="num" bindblur='inputnum'/>
+</view>
+<view class="userclass">
+  <view class="userclass">截止日期</view>
+  <picker mode="date" value="{{date}}" start="2017-09-01" end="2047-09-01" bindchange="bindDateChange">
+    <view class="picker">
+      截止至: {{ddl}}
+    </view>
+  </picker>
+</view>
+<view class="userclass">
+  <view class="userclass">标签</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      {{array[index]}}
+    </view>
+  </picker>
+</view>
+<view class="userclass">
+  <button form-type='submit'>确认提交</button>
+  </view>
+</form>

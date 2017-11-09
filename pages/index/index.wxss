@@ -1,0 +1,19 @@
+page{
+  background-color:#ffffff;
+  margin-left:auto;
+}
+
+.img{
+  width:110rpx;
+  height:110rpx;
+  margin-left:10rpx;
+  margin-top:10rpx;
+  margin-right:10rpx;
+}
+.description{
+   height:110rpx;
+   margin-right:20rpx;
+}
+.secondText{
+  margin-left:10rpx;
+}

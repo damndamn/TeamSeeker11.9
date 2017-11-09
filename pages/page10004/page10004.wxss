@@ -1,0 +1,22 @@
+.userinput{
+  margin-top:0rpx;
+  margin-left:auto;
+  width:642.1875rpx;
+  height:82.03125rpx;
+  margin-right:auto;
+  opacity:1;
+  border-radius:23.4375rpx;
+}
+.userclass{
+  background-color:rgba(0, 0, 0, 0);
+  margin-top:70rpx;
+  margin-left:auto;
+  width:642.1875rpx;
+  height:90.03125rpx;
+  margin-right:auto;
+  opacity:1;
+  border-radius:23.4375rpx;
+}
+.picker{
+  
+}
